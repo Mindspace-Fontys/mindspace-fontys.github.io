@@ -28,6 +28,23 @@ because it allows us to make each service independent. This means that we can
 keep them simple and focused on a single task. This makes it easier to understand
 and maintain the codebase.
 
+Finally, a monolithic architecture is not a good fit for MindSpaces because it
+is not a good fit for a distributed team. Our team contains more than five members that work both on-site and remote. Syncrhonizing the work of a monolithic architecture can be difficult. Certainly not impossible, but it is easier to work with a distributed architecture when you have a distributed team.
+
+## Serverless & Microservices vs Monolithic
+
+- = good fit | - = bad fit | o = neutral | x = not applicable
+
+| Feature          | Serverless | Microservices | Monolithic |
+| ---------------- | ---------- | ------------- | ---------- |
+| Scalability      | +          | +             | -          |
+| Maintainability  | +          | +             | -          |
+| Complexity       | -          | o             | +          |
+| Performance      | o          | o             | o          |
+| Security         | +          | o             | +          |
+| Cost             | o          | +             | -          |
+| Team Development | o          | +             | -          |
+
 ## Conclusion
 
 In this section, we have discussed the two different architectures that we are
