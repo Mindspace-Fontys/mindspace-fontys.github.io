@@ -5,6 +5,7 @@ import Layout from "@theme/Layout";
 import clsx from "clsx";
 import React from "react";
 
+import Translate from "@docusaurus/Translate";
 import styles from "./index.module.css";
 
 function HomepageHeader() {
@@ -21,7 +22,10 @@ function HomepageHeader() {
           {siteConfig.title}
         </h1>
         <p className="hero__subtitle">
-          {siteConfig.tagline}
+          <Translate description="The homepage main heading">
+            Book your space, free your mind with
+            MindSpaces
+          </Translate>
         </p>
         <div className={styles.buttons}>
           <Link

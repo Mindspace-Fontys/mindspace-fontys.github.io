@@ -29,7 +29,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'nl'],
   },
 
   presets: [
@@ -101,6 +101,7 @@ const config = {
             label: 'Docs',
           },
           {to: '/community/intro', label: 'User Guide', position: 'left'},
+          {type: 'localeDropdown', position: 'right'},
           {
             href: 'https://github.com/mindspace-fontys',
             label: 'GitHub',

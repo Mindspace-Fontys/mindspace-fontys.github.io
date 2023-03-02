@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "(nl) Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Research": {
+    "message": "(nl) Research",
+    "description": "The label for category Research in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Architecture": {
+    "message": "(nl) Architecture",
+    "description": "The label for category Architecture in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Application Programming Interface": {
+    "message": "(nl) Application Programming Interface",
+    "description": "The label for category Application Programming Interface in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Development": {
+    "message": "(nl) Development",
+    "description": "The label for category Development in sidebar tutorialSidebar"
+  }
+}
