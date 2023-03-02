@@ -45,10 +45,10 @@ const FeatureList: FeatureItem[] = [
       .default,
     description: (
       <>
-        MindSpaces is MIT licensed and open source
-        so you can contribute to the project and
-        help make it better. You can also use it
-        for free in your organisation.
+        MindSpaces is open source and is available
+        on GitHub. You can contribute to the
+        project and help make it better for
+        everyone.
       </>
     ),
   },
