@@ -19,6 +19,6 @@ The documentation is split into different sections. Each section has a different
 
 - [Getting Started](getting-started.md): This section is for people who are new to MindSpaces. It will help you setup the development tools and run the project.
 
-- [Design](design.md): This section is for people who want to contribute to the design of the project. It will help you understand the design process and how to contribute.
+- [Design](design/index.md): This section is for people who want to contribute to the design of the project. It will help you understand the design process and how to contribute.
 
-- [Development](development.md): This section is for people who want to contribute to the project. It will help you understand the project structure and how to contribute.
+- [Development](development/index.md): This section is for people who want to contribute to the project. It will help you understand the project structure and how to contribute.
