@@ -1,6 +1,7 @@
 {
   "name": "mindspaces",
   "version": "0.0.0",
+  "homepage": "https://mindspaces.nl",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
