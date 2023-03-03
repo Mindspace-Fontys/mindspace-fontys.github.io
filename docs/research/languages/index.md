@@ -1,4 +1,4 @@
-# Language
+# Languages
 
 The choice of programming language is a critical decision in software development. It affects the development process, the performance of the resulting software, and the ease of maintenance and expansion. As such, selecting the right programming language is a complex task that requires careful consideration of multiple factors. On this page, we will outline the programming languages that we considered for our project and the reasoning behind our final decision. We will explore the advantages and disadvantages of each language, as well as the criteria that we used to evaluate them.
 
