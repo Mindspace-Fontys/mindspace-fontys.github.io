@@ -20,6 +20,8 @@ Some criteria are specific to the backend, while others are specific to the fron
 
 - **Ease of Use:** The ease of use of a programming language is an important factor to consider when selecting a programming language. It indicates the level of effort required to learn the language and develop applications in it.
 
+- **Type Safety (frontend):** For frontend development, type safety is an important factor to consider when selecting a programming language. It indicates the level of support that the language has for static typing, which can help to catch bugs and errors at compile time.
+
 - **Performance:** The performance of a programming language is an important factor to consider when selecting a programming language. It indicates how efficiently the eventual software will run.
 
 - **Scalability (backend):** The scalability of a programming language is an important factor to consider when selecting a programming language. It indicates how well the language can be used to develop large applications.
@@ -34,13 +36,13 @@ While the frontend is a web application, developing it can be done in a variety 
 
 ### Languages Considered
 
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript): JavaScript is the most popular programming language in the world. It is used to develop web applications, mobile applications, desktop applications, and more.
+- [JavaScript](./javascript.md): JavaScript is the most popular programming language in the world. It is used to develop web applications, mobile applications, desktop applications, and more.
 
-- [TypeScript](https://www.typescriptlang.org/): TypeScript is a superset of JavaScript. It adds static typing and other features to JavaScript. It is used to develop web applications, mobile applications, desktop applications, and more.
+- [TypeScript](./typescript.md): TypeScript is a superset of JavaScript. It adds static typing and other features to JavaScript. It is used to develop web applications, mobile applications, desktop applications, and more.
 
-- [ELM](https://elm-lang.org/): ELM is a functional programming language that compiles to JavaScript. It is used to develop web applications, mobile applications, desktop applications, and more.
+- [ELM](./elm.md): ELM is a functional programming language that compiles to JavaScript. It is used to develop web applications, mobile applications, desktop applications, and more.
 
-- [Dart](https://dart.dev/): Dart is a programming language developed by Google. It is used to develop web applications, mobile applications, desktop applications, and more.
+- [Dart](./dart.md): Dart is a programming language developed by Google. It is used to develop web applications, mobile applications, desktop applications, and more.
 
 ### Comparison Table
 
@@ -52,29 +54,19 @@ The criteria in the table below are ordered from most important to least importa
 
 \+ = Amazing | - = Terrible | o = Neutral
 
+The criteria in the table below are ordered from most important to least important. If any of the criteria marked as "Terrible", we will not consider the language. Therefore we will stop scoring the criteria from that point on.
+
 If you would like more information on how we scored each language, you can click
 on the score to see the source.
 
-| Criteria             | JavaScript                              | TypeScript                              | ELM                    | Dart                                                                       |
-| -------------------- | --------------------------------------- | --------------------------------------- | ---------------------- | -------------------------------------------------------------------------- |
-| Popularity           | +                                       | +                                       | o                      | o                                                                          |
-| Ease of Use          | +                                       | o                                       | [-](#elms-ease-of-use) | o                                                                          |
-| Performance          | +                                       | +                                       |                        | [+](https://programming-language-benchmarks.vercel.app/dart-vs-javascript) |
-| Standard Library     | o                                       | +                                       |                        | +                                                                          |
-| Available Frameworks | [+](#typescript--javascript-frameworks) | [+](#typescript--javascript-frameworks) |                        | -                                                                          |
-
-#### ELM's Ease of Use
-
-Due to ELM being a functional language, it is vastly different from the usual
-frontend languages. This makes it more difficult to learn and use. For this
-reason, we have given it a score of -.
-
-#### TypeScript & JavaScript Frameworks
-
-TypeScript and JavaScript are both popular languages, and as such, they have a
-large number of frameworks available. The beauty of TypeScript is that it is
-a superset of JavaScript, meaning that any JavaScript framework can be used
-with TypeScript.
+| Criteria             | [JavaScript](./javascript.md) | [TypeScript](./typescript.md) | [ELM](./elm.md) | [Dart](./dart.md) |
+| -------------------- | ----------------------------- | ----------------------------- | --------------- | ----------------- |
+| Popularity           | +                             | +                             | o               | o                 |
+| Ease of Use          | +                             | o                             | -               | o                 |
+| Type Safety          | -                             | +                             | +               | o                 |
+| Performance          |                               | +                             |                 | +                 |
+| Standard Library     |                               | +                             |                 | +                 |
+| Available Frameworks |                               | +                             |                 | -                 |
 
 ## Backend
 
@@ -82,13 +74,13 @@ Choosing the right programming language for the backend is a critical decision. 
 
 ### Languages Considered
 
-- [Rust](https://www.rust-lang.org/): Rust is a general-purpose programming language developed by Mozilla. It is used to develop web applications, mobile applications, desktop applications, and more.
+- [Rust](./rust.md): Rust is a general-purpose programming language developed by Mozilla. It is used to develop web applications, mobile applications, desktop applications, and more.
 
-- [C#](https://docs.microsoft.com/en-us/dotnet/csharp/): C# is a general-purpose programming language developed by Microsoft. It is used to develop web applications, mobile applications, desktop applications, and more.
+- [C#](./csharp.md): C# is a general-purpose programming language developed by Microsoft. It is used to develop web applications, mobile applications, desktop applications, and more.
 
-- [Java](https://www.java.com/en/): Java is a general-purpose programming language developed by Oracle. Unlike C#, it follows the "compile once, run anywhere" paradigm. It is used to develop web applications, mobile applications, desktop applications, and more.
+- [Java](./java.md): Java is a general-purpose programming language developed by Oracle. Unlike C#, it follows the "compile once, run anywhere" paradigm. It is used to develop web applications, mobile applications, desktop applications, and more.
 
-- [Go](https://golang.org/): Go is a general-purpose programming language developed by Google. It is used to make scalable network services. It is used to develop web applications, mobile applications, desktop applications, and more.
+- [Go](./go.md): Go is a general-purpose programming language developed by Google. It is used to make scalable network services. It is used to develop web applications, mobile applications, desktop applications, and more.
 
 ### Comparison Table
 
@@ -103,16 +95,23 @@ The criteria in the table below are ordered from most important to least importa
 If you would like more information on how we scored each language, you can click
 on the score to see the source.
 
-| Criteria         | Rust | C#  | Java | Go  |
-| ---------------- | ---- | --- | ---- | --- |
-| Popularity       | +    | +   | +    | +   |
-| Ease of Use      | -    | o   | o    | +   |
-| Performance      |      | o   | o    | +   |
-| Scalability      |      | o   | o    | +   |
-| Standard Library |      | o   | +    | +   |
+| Criteria                   | [Rust](./rust.md) | [C#](./csharp.md) | [Java](./java.md) | [Go](./go.md) |
+| -------------------------- | :---------------: | :---------------: | :---------------: | :-----------: |
+| Popularity                 |         o         |         +         |         +         |       o       |
+| Ease of Use                |         -         |         +         |         +         |       +       |
+| Performance                |                   |         o         |         o         |       +       |
+| Scalability                |                   |         o         |         o         |       +       |
+| Standard Library           |                   |         +         |         +         |       +       |
+| Availability of Frameworks |                   |         +         |         +         |       +       |
 
 ## Conclusion
 
 - **Frontend**: For frontend development TypeScript is the best option. It is the most popular language (next to JavaScript), and as such, it has a large number of resources available. It also has a large number of frameworks available, and it is easy to learn and use. It is extremely popular language, and as such, it has a large number of resources available. It is also easy to learn and use. Finally, type safety is important when working in a team, and therefore JavaScript was not considered for the frontend.
 
 - **Backend:** For backend development, Go is the best option. It is the most popular language for distributed systems, and therefore its standard library contains a plethora of tools for networking, database access, and more. It is also easy to learn and use. Finally, it's slogan is literally "Build simple, secure, scalable systems with Go". And it's mascotte is a gopher. What more could you want?
+
+I would like to give some context as to why I originally thought a distributed architecture to not be a good fit, these are the reasons why I wanted to research them:
+
+- Complexity: The more components you have, the more complex your system becomes. This is especially true when you have to manage the communication between the components. This is why I thought that a distributed architecture would be too complex for a small team.
+
+- Performance: The more components you have, the more overhead you have. This is especially true when you have to manage the communication between the components. This is why I thought that a distributed architecture would be too slow for a small team.
