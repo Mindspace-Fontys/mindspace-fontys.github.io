@@ -114,10 +114,14 @@ When you are making a pull request, you should follow the following guidelines:
 
 ## Merging
 
+:::caution Squash & Merge
+
+While there are two ways of merging a PR, you should only use "Squash & Merge" if there are a lot of **miscellaneous** commits in the pull request. If you do not know what to do, then use "Rebase & Merge" or ask the reviewer.
+
+:::
+
 When you are merging a pull request, the pull request should be merged using either:
 
 - **Squash & Merge**: This will squash all the commits in the pull request into a single commit.
 
 - **Rebase & Merge**: This will rebase all the commits in the pull request onto the `main` branch.
-
-This choice is dependant on whether there are a ton of miscellaneous commits in the pull request. If there are a lot of miscellaneous commits, then it is better to squash the commits. If the commits are relevant to the developers, then it is better to rebase the commits.
