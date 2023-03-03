@@ -1,0 +1,525 @@
+---
+sidebar_position: 20
+---
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import CodeBlock from "@theme/CodeBlock";
+import Admonition from "@theme/Admonition";
+
+# Tooling
+
+We use a lot of different tools to develop MindSpaces. This section contains
+information about the tools that we use to develop MindSpaces. Both how to
+install them, how we use them and why we use them.
+
+## Git
+
+For version control we use Git. Git is a version control system. It allows you
+to keep track of changes to the codebase. Just as important, it allows you to
+collaborate with other developers.
+
+### Installation
+
+<Tabs groupId="operating-systems">
+  <TabItem value="windows" label="Windows">
+    <ol>
+      <li>
+        Go to the official Git for Windows website
+        at https://git-scm.com/download/win.
+      </li>
+      <li>
+        Click the "Download" button to download
+        the Git installer
+      </li>
+      <li>
+        Once the download is complete, open the
+        installer by double clicking the
+        downloaded file.
+      </li>
+      <li>
+        Follow the prompts in the Git installer to
+        complete the installation. By default, Git
+        will install to C:\Program Files\Git.
+      </li>
+      <li>
+        During the installation process, you may
+        be prompted to select components to
+        install. Make sure that "Git Bash Here"
+        and "Git GUI Here" are selected if you
+        want to use these tools.
+      </li>
+      <li>
+        Once the installation is complete, you can
+        open Git Bash to use Git on your Windows
+        machine. You can find Git Bash in the
+        Start menu under "Git".
+      </li>
+    </ol>
+  </TabItem>
+  <TabItem value="linux" label="Linux">
+    <Admonition type="caution">
+      <p>
+        This guide is for Debian based distributions, for other flavors of 
+        Linux, please see the official <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Git Installation Guide</a>.
+      </p>
+    </Admonition>
+    <ol>
+      <li>
+        Open the terminal on your Linux machine.
+      </li>
+      <li>
+        Update your package manager's cache by
+        typing the following command and pressing
+        enter:
+        <CodeBlock language="bash">
+          sudo apt-get update
+        </CodeBlock>
+      </li>
+      <li>
+        Install Git by typing the following
+        command and pressing enter:
+        <CodeBlock language="bash">
+          sudo apt-get install git
+        </CodeBlock>
+      </li>
+      <li>
+        The package manager will prompt you to
+        confirm the installation. Type "y" and
+        press enter to continue.
+      </li>
+    </ol>
+
+  </TabItem>
+  <TabItem value="macos" label="MacOS">
+    <Admonition type="caution">
+      <p>
+        This guide uses Homebrew to install Git, if you can not use Homebrew
+        please see the
+        the <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Git Installation Guide</a> for
+        alternatives
+      </p>
+    </Admonition>
+    <ol>
+      <li>
+        Open the Terminal app on your macOS
+        machine. You can find it in the
+        Applications &gt; Utilities folder, or by
+        using Spotlight search.
+      </li>
+      <li>
+        Install Homebrew if you don't have it
+        already. Type the following command and
+        press enter:
+        <CodeBlock language="bash">
+          /bin/bash -c "$(curl -fsSL
+          https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+        </CodeBlock>
+      </li>
+      <li>
+        Once Homebrew is installed, update your
+        Homebrew package list by typing the
+        following command and pressing enter:
+        <CodeBlock language="bash">
+          brew update
+        </CodeBlock>
+      </li>
+      <li>
+        Install Git by typing the following
+        command and pressing enter:
+        <CodeBlock language="zsh">
+          brew install git
+        </CodeBlock>
+      </li>
+    </ol>
+    That's it! You now have Git installed on your macOS
+    machine using Homebrew.
+  </TabItem>
+</Tabs>
+
+Finally, to verify that Git has been installed correctly, open Git Bash and type the following command:
+
+```powershell
+git --version
+```
+
+This command will display the current version of Git and verify that it has been
+installed correctly. And that's it! You now have Git installed on your Windows
+machine.
+
+## Node
+
+Node is a JavaScript runtime environment. It allows you to run JavaScript code
+outside of a browser. We use Node to build our frontend for MindSpaces.
+
+### Installation
+
+<Tabs groupId="operating-systems">
+  <TabItem value="windows" label="Windows">
+    <ol>
+      <li>
+        Download the Node.js Installer by opening
+        a powershell window and typing the
+        following command, then pressing enter:
+        <CodeBlock language="bash">
+          curl -LO
+          https://nodejs.org/dist/v18.14.2/node-v18.14.2-x64.msi
+        </CodeBlock>
+      </li>
+      <li>
+        Install Node.js by typing the following
+        command and pressing enter:
+        <CodeBlock language="bash">
+          msiexec.exe /i node-v18.14.2-x64.msi
+          /quiet
+        </CodeBlock>
+      </li>
+      <li>
+        Verify that Node.js has been installed
+        correctly by typing the following command
+        and pressing enter:
+        <CodeBlock language="bash">
+          node -v
+        </CodeBlock>
+      </li>
+      <li>
+        The command should output the version
+        number of Node.js (e.g. `v18.14.2`). If it
+        does, then Node.js has been successfully
+        installed on your Windows machine!
+      </li>
+    </ol>
+  </TabItem>
+  <TabItem value="linux" label="Linux">
+    <Admonition type="caution">
+      <p>
+        This guide is for Debian based
+        distributions, for other flavors of Linux,
+        please see the official{" "}
+        <a href="https://nodejs.org/en/download/package-manager/">
+          Node Installation Guide
+        </a>
+        .
+      </p>
+    </Admonition>
+    <ol>
+      <li>
+        Add the Node.js repository to the package
+        manager's sources by opening a terminal
+        window and typing the following command,
+        then pressing enter:
+        <CodeBlock language="bash">
+          curl -sL
+          https://deb.nodesource.com/setup_18.x |
+          sudo -E bash -
+        </CodeBlock>
+      </li>
+      <li>
+        Install Node.js by typing the following
+        command and pressing enter:
+        <CodeBlock language="bash">
+          sudo apt-get install -y nodejs
+        </CodeBlock>
+      </li>
+      <li>
+        Verify that Node.js has been installed
+        correctly by typing the following command
+        and pressing enter:
+        <CodeBlock language="bash">
+          node -v
+        </CodeBlock>
+      </li>
+      <li>
+        The command should output the version
+        number of Node.js (e.g. `v18.14.2`). If it
+        does, then Node.js has been successfully
+        installed on your Linux machine!
+      </li>
+    </ol>
+  </TabItem>
+  <TabItem value="macos" label="MacOS">
+    <Admonition type="caution">
+      <p>
+        This guide uses Homebrew to install Git,
+        if you can not use Homebrew please see the
+        the{" "}
+        <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">
+          Git Installation Guide
+        </a>{" "}
+        for alternatives
+      </p>
+    </Admonition>
+    <ol>
+      <li>
+        Open the Terminal app on your macOS
+        machine. You can find it in the
+        Applications &gt; Utilities folder, or by
+        using Spotlight search.
+      </li>
+      <li>
+        Install Homebrew if you don't have it
+        already. Type the following command and
+        press enter:
+        <CodeBlock language="bash">
+          /bin/bash -c "$(curl -fsSL
+          https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+        </CodeBlock>
+      </li>
+      <li>
+        Install Node.js by typing the following
+        command and pressing enter:
+        <CodeBlock language="bash">
+          brew install node@18.14.2
+        </CodeBlock>
+      </li>
+      <li>
+        Verify that Node.js has been installed
+        correctly by typing the following command
+        and pressing enter:
+        <CodeBlock language="bash">
+          node -v
+        </CodeBlock>
+      </li>
+      <li>
+        The command should output the version
+        number of Node.js (e.g. `v18.14.2`). If it
+        does, then Node.js has been successfully
+        installed on your macOS machine!
+      </li>
+    </ol>
+  </TabItem>
+</Tabs>
+
+**You now have successfully installed NodeJS on your machine!**
+
+## Docker
+
+:::info
+
+If you use Docker Desktop, then Docker Compose is already installed. Otherwise you might need to install it separately. For more information, please see the [Docker Compose Installation](https://docs.docker.com/compose/install/) guide.
+
+:::
+
+### Installation
+
+<Tabs groupId="operating-systems">
+  <TabItem value="windows" label="Windows">
+    <ol>
+      <li>
+        Go to the Docker website at{" "}
+        <a href="https://www.docker.com/products/docker-desktop">
+          https://www.docker.com/products/docker-desktop
+        </a>
+        .
+      </li>
+      <li>
+        Click the "Download Docker Desktop" button
+        to download the Docker Desktop installer.
+      </li>
+      <li>
+        Once the download is complete,
+        double-click the downloaded file to launch
+        the Docker Desktop installer.
+      </li>
+      <li>
+        Follow the prompts in the Docker Desktop
+        installer to complete the installation. By
+        default, Docker Desktop will install to
+        `C:\Program Files\Docker\Docker`. During
+        the installation process, you may be
+        prompted to enable Hyper-V and/or WSL 2
+        (Windows Subsystem for Linux) if they are
+        not already enabled on your Windows
+        machine. Make sure to enable them if
+        prompted.
+      </li>
+      <li>
+        Once the installation is complete, Docker
+        Desktop should launch automatically.
+      </li>
+      <li>
+        You can verify that Docker Desktop has
+        been installed correctly by opening a
+        command prompt or PowerShell window and
+        typing the following command:
+        <CodeBlock language="bash">
+          docker version
+        </CodeBlock>
+      </li>
+      <li>
+        This command will display the current
+        version of Docker Desktop and verify that
+        it has been installed correctly.
+      </li>
+      <li>
+        Optionally, you can also open the Docker
+        Desktop application and confirm that it is
+        running by checking the Docker icon in the
+        system tray.
+      </li>
+    </ol>
+  </TabItem>
+  <TabItem value="linux" label="Linux">
+    <Admonition type="caution">
+      <p>
+        This guide is for Debian based
+        distributions, for other flavors of Linux,
+        please see the official{" "}
+        <a href="https://docs.docker.com/engine/install/">
+          Docker Installation Guide
+        </a>
+        .
+      </p>
+    </Admonition>
+    <ol>
+      <li>
+        Open a terminal window on your Linux
+        machine.
+      </li>
+      <li>
+        Update your package manager's cache by
+        typing the following command and pressing
+        enter:
+        <CodeBlock language="bash">
+          sudo apt-get update
+        </CodeBlock>
+      </li>
+      <li>
+        Install required packages for the Docker
+        repository by typing the following command
+        and pressing enter:
+        <CodeBlock language="bash">
+          sudo apt-get install -y
+          apt-transport-https ca-certificates curl
+          gnupg lsb-release
+        </CodeBlock>
+      </li>
+      <li>
+        Add Docker's official GPG key by typing
+        the following command and pressing enter:
+        <CodeBlock language="bash">
+          curl -fsSL
+          https://download.docker.com/linux/debian/gpg
+          | sudo gpg --dearmor -o
+          /usr/share/keyrings/docker-archive-keyring.gpg
+        </CodeBlock>
+      </li>
+      <li>
+        Add the Docker repository to your system's
+        sources list by typing the following
+        command and pressing enter:
+        <CodeBlock language="bash">
+          echo \ "deb [arch=amd64
+          signed-by=/usr/share/keyrings/docker-archive-keyring.gpg]
+          https://download.docker.com/linux/debian
+          \ $(lsb_release -cs) stable" | sudo tee
+          /etc/apt/sources.list.d/docker.list >
+          /dev/null
+        </CodeBlock>
+      </li>
+      <li>
+        Update your package manager's cache again
+        by typing the following command and
+        pressing enter:
+        <CodeBlock language="bash">
+          sudo apt-get update
+        </CodeBlock>
+      </li>
+      <li>
+        Install Docker by typing the following
+        command and pressing enter:
+        <CodeBlock language="bash">
+          sudo apt-get install -y docker-ce
+          docker-ce-cli containerd.io
+        </CodeBlock>
+      </li>
+      <li>
+        Once the installation is complete, you can
+        verify that Docker has been installed
+        correctly by typing the following command
+        and pressing enter:
+        <CodeBlock language="bash">
+          sudo docker run hello-world
+        </CodeBlock>
+      </li>
+      <li>
+        This command will download a test image
+        and run a container, and then display a
+        message confirming that Docker is running
+        correctly.
+      </li>
+      <li>
+        If you want to use Docker without needing
+        to use sudo every time, you can add your
+        user to the docker group by typing the
+        following command and pressing enter:
+        <CodeBlock language="bash">
+          sudo usermod -aG docker $USER
+        </CodeBlock>
+        <p>
+          After running this command, you will
+          need to log out and log back in for the
+          changes to take effect.
+        </p>
+      </li>
+      <li>
+        You can also check the version of Docker
+        that is installed by typing the following
+        command and pressing enter:
+        <CodeBlock language="bash">
+          docker version
+        </CodeBlock>
+      </li>
+    </ol>
+  </TabItem>
+  <TabItem value="macos" label="MacOS">
+    <ol>
+      <li>
+        Go to the Docker website at{" "}
+        <a href="https://www.docker.com/products/docker-desktop">
+          https://www.docker.com/products/docker-desktop
+        </a>
+        .
+      </li>
+      <li>
+        Click the "Download Docker Desktop" button
+        to download the Docker Desktop installer.
+      </li>
+      <li>
+        Once the download is complete,
+        double-click the downloaded file to launch
+        the Docker Desktop installer.
+      </li>
+      <li>
+        Follow the prompts in the Docker Desktop
+        installer to complete the installation.
+      </li>
+      <li>
+        Once the installation is complete, Docker
+        Desktop should launch automatically.
+      </li>
+      <li>
+        You can verify that Docker Desktop has
+        been installed correctly by opening a
+        terminal window and typing the following
+        command:
+        <CodeBlock language="bash">
+          docker version
+        </CodeBlock>
+      </li>
+      <li>
+        This command will display the current
+        version of Docker Desktop and verify that
+        it has been installed correctly.
+      </li>
+      <li>
+        Optionally, you can also open the Docker
+        Desktop application and confirm that it is
+        running by checking the Docker icon in the
+        system tray.
+      </li>
+    </ol>
+  </TabItem>
+</Tabs>
+
+**You now have successfully installed Docker on your machine!**
