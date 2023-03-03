@@ -18,7 +18,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'mindspaces-fontys', // Usually your GitHub org/user name.
+  organizationName: 'mindspace-fontys', // Usually your GitHub org/user name.
   projectName: 'mindspaces.github.io', // Usually your repo name.
 
   onBrokenLinks: 'ignore',
@@ -42,7 +42,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/mindspaces-fontys/mindspaces-fontys.github.io/edit/main/',
+            'https://github.com/Mindspace-Fontys/mindspace-fontys.github.io/edit/main/',
         },
         blog: {
           showReadingTime: true,
