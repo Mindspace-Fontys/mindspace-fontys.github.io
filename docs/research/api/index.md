@@ -2,4 +2,4 @@
 sidebar_position: 20
 ---
 
-# Application Programming Interface
+# API Communication
