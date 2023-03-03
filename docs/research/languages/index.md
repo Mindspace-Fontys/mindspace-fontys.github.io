@@ -48,16 +48,9 @@ While the frontend is a web application, developing it can be done in a variety 
 
 :::info
 
-The criteria in the table below are ordered from most important to least important. If any of the criteria marked as "Terrible", we will not consider the language. Therefore we will stop scoring the criteria from that point on.
+The criteria in the table below are ordered from most important to least important. If any of the criteria marked as "strong disadventage", we will not consider the language. Therefore we will stop scoring the criteria from that point on.
 
 :::
-
-\+ = Amazing | - = Terrible | o = Neutral
-
-The criteria in the table below are ordered from most important to least important. If any of the criteria marked as "Terrible", we will not consider the language. Therefore we will stop scoring the criteria from that point on.
-
-If you would like more information on how we scored each language, you can click
-on the score to see the source.
 
 | Criteria             | [JavaScript](./javascript.md) | [TypeScript](./typescript.md) | [ELM](./elm.md) | [Dart](./dart.md) |
 | -------------------- | ----------------------------- | ----------------------------- | --------------- | ----------------- |
@@ -67,6 +60,8 @@ on the score to see the source.
 | Performance          |                               | +                             |                 | +                 |
 | Standard Library     |                               | +                             |                 | +                 |
 | Available Frameworks |                               | +                             |                 | -                 |
+
+\+ = Strong Advantage | - = Strong Disadvantage | o = Neutral
 
 ## Backend
 
@@ -86,14 +81,9 @@ Choosing the right programming language for the backend is a critical decision. 
 
 :::info
 
-The criteria in the table below are ordered from most important to least important. If any of the criteria marked as "Terrible", we will not consider the language. Therefore we will stop scoring the criteria from that point on.
+The criteria in the table below are ordered from most important to least important. If any of the criteria marked as "strong disadventage", we will not consider the language. Therefore we will stop scoring the criteria from that point on.
 
 :::
-
-\+ = Amazing | - = Terrible | o = Neutral
-
-If you would like more information on how we scored each language, you can click
-on the score to see the source.
 
 | Criteria                   | [Rust](./rust.md) | [C#](./csharp.md) | [Java](./java.md) | [Go](./go.md) |
 | -------------------------- | :---------------: | :---------------: | :---------------: | :-----------: |
@@ -103,6 +93,8 @@ on the score to see the source.
 | Scalability                |                   |         o         |         o         |       +       |
 | Standard Library           |                   |         +         |         +         |       +       |
 | Availability of Frameworks |                   |         +         |         +         |       +       |
+
+\+ = Strong Advantage | - = Strong Disadvantage | o = Neutral
 
 ## Conclusion
 
