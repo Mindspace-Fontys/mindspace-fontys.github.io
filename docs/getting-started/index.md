@@ -8,7 +8,7 @@ Before you can start developing, you need to setup your development environment.
 
 ## Prerequisites
 
-Before you can start developing, you need to install the following tools:
+Before you can start developing, you need to install the neccesary tooling:
 
 - [Git](https://git-scm.com/): Git is a version control system. It allows you to keep track of changes to the codebase. It also allows you to collaborate with other developers. We use Git to manage the codebase.
 
@@ -17,6 +17,8 @@ Before you can start developing, you need to install the following tools:
 - [Docker](https://www.docker.com/): Docker is a containerization tool. It allows you to run applications in isolated containers. We use Docker to run the codebase.
 
 - [Docker Compose](https://docs.docker.com/compose/): Docker Compose is a tool for defining and running multi-container Docker applications. We use Docker Compose to run the codebase.
+
+For more information, please read the [Tooling](../development/tooling/index.md) page.
 
 ## Development Setup
 
