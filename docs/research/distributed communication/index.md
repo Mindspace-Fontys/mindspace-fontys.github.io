@@ -29,6 +29,8 @@ In the section tRPC we researched the viability of using tRPC for the communicat
 
 # Conclusion
 
-Choosing a communication protocol is a very important decision. It is important to choose a protocol that is a good fit for your project. In this section, we have discussed the two different protocols that we are considering for MindSpaces. We have also discussed why these protocols are a good fit for MindSpaces.
+Selecting a communication protocol is a critical decision that requires careful consideration of the project's specific requirements. In this section, we have discussed two possible protocols that were evaluated for MindSpaces, along with their respective advantages.
 
-GraphQL and REST are both good options for MindSpaces. However, we have decided to go with REST because it is a more mature protocol and it is easier to implement. GraphQL is a good option for MindSpaces because it is more flexible and it has a built-in schema validation. However, we have decided to go with REST because it is a more mature protocol and it is easier to implement due to having more in-house knowledge.
+Both GraphQL and REST were deemed suitable options for MindSpaces. However, after careful evaluation, it was determined that REST would be the optimal choice due to its greater maturity and ease of implementation. While GraphQL offers greater flexibility and built-in schema validation, REST was selected based on its more established track record and the in-house knowledge available for its implementation.
+
+The decision-making process for selecting a communication protocol should be guided by a thorough analysis of the project's needs, considering all relevant factors, and assessing the available options. The ultimate goal is to select a protocol that aligns with the project's specific needs and goals, and can be effectively implemented with the available resources.
