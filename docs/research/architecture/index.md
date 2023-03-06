@@ -18,22 +18,21 @@ research, we are considering two different architectures:
 
 ## Distributed Architectures
 
-For MindSpaces we made the choice to go with a distributed architecture. This
-is for a few reasons. Initially due to the requirement from school, however the research has shown that this is a good fit for MindSpaces.
+For MindSpaces we chose to go with a distributed architecture. This
+is for a few reasons. Initially due to the requirement from school, however, the research has shown that this is a good fit for MindSpaces.
 
 Distributed architectures are a good fit for MindSpaces because it allows us to scale the project independently. For example, if we want to scale the project to support more users, we can scale the user service without having to scale the other services. This is not possible with a monolithic architecture.
 
-Another reason why a distributed architecture is a good fit for MindSpaces is
-because it allows us to make each service independent. This means that we can
+Another reason why a distributed architecture is a good fit for MindSpaces, is because it allows us to make each service independent. This means that we can
 keep them simple and focused on a single task. This makes it easier to understand
 and maintain the codebase.
 
 Finally, a monolithic architecture is not a good fit for MindSpaces because it
-is not a good fit for a distributed team. Our team contains more than five members that work both on-site and remote. Syncrhonizing the work of a monolithic architecture can be difficult. Certainly not impossible, but it is easier to work with a distributed architecture when you have a distributed team.
+is not a good fit for a distributed team. Our team contains more than five members that work both on-site and remotely. Synchronizing the work of a monolithic architecture can be difficult. Certainly not impossible, but it is easier to work with a distributed architecture when you have a distributed team.
 
 ## Serverless & Microservices vs Monolithic
 
-- = good fit | - = bad fit | o = neutral | x = not applicable
+- += good fit | - = bad fit | o = neutral | x = not applicable
 
 | Feature          | Serverless | Microservices | Monolithic |
 | ---------------- | ---------- | ------------- | ---------- |
