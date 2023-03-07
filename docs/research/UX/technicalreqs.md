@@ -6,4 +6,6 @@ When designing the MindSpaces reservation system, it is important to consider th
 
 ✓ Data security and privacy are also key technical requirements that must be considered when designing the MindSpaces reservation system. The system will contain sensitive information related to healthcare, such as names and appointment times, and must therefore be designed with strong data security measures in place. This may include implementing encryption and secure authentication protocols to protect user data, as well as regular security audits and updates to ensure the system remains secure over time. We will also adhere to relevant data protection laws and regulations, such as the General Data Protection Regulation (GDPR) in the European Union, to ensure the privacy of user data is maintained.
 
+![GDPR](gdpr.png)
+
 By considering these technical requirements, we can ensure that the MindSpaces reservation system is both functional and secure, offering users a reliable and user-friendly experience that prioritizes the protection of their data and privacy.

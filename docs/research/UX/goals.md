@@ -18,6 +18,7 @@ MindSpaces is intended for users who do not have much experience with IT. It is 
 
 :::
 
+## Key Considerations
 
 To make the reservation system easy to use, here are some key considerations that are taken:
 
