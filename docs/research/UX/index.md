@@ -22,4 +22,14 @@ By considering these criteria, you can design a reservation system that meets th
 
 - [Technical requirements](technicalreqs): Consider the technical requirements of the reservation system, such as compatibility with different devices and browsers, and the need for data security and privacy.
 
+## Conclusion
+
+In conclusion, the UX research conducted for the MindSpaces reservation system has provided valuable insights into the needs, goals, and behaviors of the target users. Through user interviews, surveys, and usability testing, we were able to gather feedback that will inform the design and development of the system, ensuring that it meets the specific needs of the healthcare sector and the diverse range of users who will be utilizing it.
+
+Key findings from the research highlighted the need for a user-friendly interface that is easy to navigate and understand, and a system that is highly organized and efficient in managing reservations. Additionally, users require a system that provides a high level of security and privacy for sensitive information.
+
+By utilizing this research, the MindSpaces team will be able to develop a reservation system that meets the needs and expectations of its users, and provides a seamless and enjoyable experience. By implementing the criteria in UX research it helps us to ensure that the MindSpaces reservation system is user-friendly, effective, and meets the needs of its target users in the healthcare sector.
+
+Overall, the UX research process is critical so MindSpaces is user-centered, and will ultimately lead to greater user satisfaction and success.
+
 

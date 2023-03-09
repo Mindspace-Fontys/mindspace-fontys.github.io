@@ -31,3 +31,9 @@ To make the reservation system easy to use, here are some key considerations tha
 💬 **Visual Aids and Feedback:** The reservation system should provide visual aids and feedback to guide users through the reservation process. This can include progress bars, confirmation messages, and error messages to ensure that users are on the right track.
 
 By incorporating these design considerations, the reservation system can be made as easy to use as possible for users with limited IT experience. This will help to ensure that the system is accessible and usable for all users, regardless of their technological proficiency.
+
+## Persona
+
+A persona is important because it helps to create a clear and detailed picture of the user or customer for whom a product or service is being designed. By developing a persona, designers and developers can better understand the needs, goals, behaviors, and preferences of the user, and can tailor the product or service to meet those specific needs. This helps to ensure that the product or service is more user-centered, and ultimately more effective in meeting the user's needs and providing a positive user experience. Persona also helps to align the team's understanding of the users and make decisions based on the user's perspective
+
+![Sarah](sarahvan.png)
